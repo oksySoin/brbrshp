@@ -1,0 +1,230 @@
+:root {
+  --main-font: 'Open Sans', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-white-color: #FFFFFF;
+  --accent-color: #FF6C00;
+  --dark-bcg-main-text-color: #9DA4BD;
+  --dark-bcg-text-color: rgba(157, 164, 189, 0.60);
+  --light-bcg-main-text-color: #303030;
+  --light-bcg-text-color: #555555;
+}
+
+/* RESETS */
+.list{
+  list-style: none;
+}
+.link{
+  color: currentColor;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: inherit;
+}
+/* ///////////////////RESETS */
+
+/* COMPONENTS SETTINGS */
+body{
+  font-family: var(--main-font);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.36;
+    /* 136.364% */
+  letter-spacing: 0.36px;
+}
+
+/* Button/theme-dark */
+.mod-btn{
+  color: var(--main-white-color);
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 1.08px;
+    
+    text-align: center;  
+    text-transform: uppercase;
+
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid var(--accent-color);
+}
+/* Button/theme-light */
+.mod-btn.light-bcg{
+  color: var(--light-bcg-main-text-color);   
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 1.08px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+.mod-btn:hover,
+.mod-btn:focus{
+  background-color: var(--accent-color);
+}  
+/* ////// COMPONENTS SETTINGS */
+
+/* HEADER */
+.page-nav-link,
+.contact-number {
+  color: var(--main-white-color);
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+.page-nav-link:hover,
+.page-nav-link:focus,
+.contact-number:hover,
+.contact-number:focus {
+  color: var(--accent-color);
+}
+/* //// HEADER */
+
+/* HERO */
+.our-socials-link{
+  color: var(--light-bcg-main-text-color);   
+  letter-spacing: 2.2px;
+}
+.our-socials-link:hover,
+.our-socials-link:focus{
+  color: var(--accent-color);
+}
+
+.hero-subtitle{
+  color: var(--dark-bcg-text-color);
+  line-height: normal;
+
+    text-transform: uppercase;
+}
+
+.page-title{
+  color: var(--main-white-color);
+  font-family: var(--secondary-font);
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 3.6px;
+}
+
+.hero-text{
+  color: var(--dark-bcg-main-text-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+}
+
+/* slider-btn */
+.slider-btn{
+  color: var(--dark-bcg-text-color);    
+  letter-spacing: 1.1px;
+
+    background-color: transparent;
+    border: none;
+}
+.slider-btn.next{
+  color: var(--main-white-color);
+  letter-spacing: 1.1px;
+  
+    text-align: right;
+}
+/* ////////slider-btn */
+
+.subtitle{
+  color: var(--light-bcg-main-text-color);
+
+    text-transform: uppercase;
+}
+.subtitle.dark-bcg{
+  color: var(--dark-bcg-text-color);
+
+    text-transform: uppercase;
+}
+
+.title{
+  color: var(--light-bcg-main-text-color);  
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 2.1px;
+}
+.title.dark-bcg{
+  color: var(--main-white-color);
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 2.1px;
+}
+
+.text{
+  color: var(--light-bcg-text-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.17;
+}
+.text.dark-bcg{
+  color: var(--dark-bcg-main-text-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.17;
+}
+
+.subtext{
+  color: var(--light-bcg-text-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.86;
+  letter-spacing: 0.28px;
+}
+
+/* BENEFITS */
+.benefits-quantity{
+  color: var(--light-bcg-main-text-color);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.36;
+  letter-spacing: 2.1px;
+    text-align: center;  
+}
+
+.benefits-desc{
+  color: var(--light-bcg-main-text-color);
+  
+    text-align: center;
+}
+/* /////// BENEFITS */
+
+/* BARBERS */
+.employees-name{
+  color: var(--light-bcg-main-text-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+
+    text-align: center;
+}
+
+.employees-position{
+  color: var(--accent-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.36;
+  letter-spacing: 0.28px;
+
+    text-align: center;
+}
+/* ////// BARBERS */
+
+/* FOOTER */
+.address-link.bold{
+  font-weight: 700;
+}
+
+.copyright{
+  color: var(--dark-bcg-main-text-color);
+  letter-spacing: 2.2px;
+}
+/* /////// FOOTER */

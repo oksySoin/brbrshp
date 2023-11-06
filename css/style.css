@@ -10,11 +10,21 @@
 }
 
 /* resets */
-.list{
+.list {
   list-style: none;
 }
-.link{
+
+.link {
+  color: currentColor;
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: inherit;
 }
 /* /////////////////// resets */
 
@@ -26,10 +36,6 @@ body{
   font-weight: 600;
   line-height: normal;
   letter-spacing: 0.36px;
-}
-
-button{
-  cursor: pointer;
 }
 
 .mod-btn{
@@ -44,8 +50,6 @@ button{
 }
 .mod-btn:hover,
 .mod-btn:focus{
-    border-radius: 25px;
-    border: 1px solid #FF6C00;
   background: var(--accent-color);
 }
 .mod-btn.light{
@@ -55,15 +59,15 @@ button{
 
 /* header */
 .page-nav-link,
-.contact-numb{
+.contact-number{
   color: var(--main-white-color);  
   font-size: 12px;
   letter-spacing: 1.2px;
 }
 .page-nav-link:hover,
 .page-nav-link:focus,
-.contact-numb:hover,
-.contact-numb:focus{
+.contact-number:hover,
+.contact-number:focus{
   color: var(--accent-color);
 }
 /* //// header */
@@ -120,7 +124,7 @@ button{
   color: var(--light-bcg-text-color);
 }
 
-.secondary-text {
+.subtext {
   color: var(--light-bcg-text-color);
   font-size: 14px;
   font-weight: 400;
